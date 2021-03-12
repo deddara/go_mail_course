@@ -9,14 +9,6 @@ import (
 	"fmt"
 	"net/http"
 )
-func (h *MyApi ) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	switch r.URL.Path {
-	//case "...":
-	//	h.wrapperDoSomeJob(w, r)
-	//default:
-		// 404
-	}
-}
 
 func main() {
 	// будет вызван метод ServeHTTP у структуры MyApi
